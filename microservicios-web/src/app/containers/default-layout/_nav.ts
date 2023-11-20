@@ -6,20 +6,24 @@ export const navItems: INavData[] = [
     title: true
   },
   {
-    name: 'Configuracion',
+    name: 'Formularios',
     url: '/dashboard/setup',
     iconComponent: { name: 'cil-puzzle' },
     children: [
       {
-        name: 'Periodo',
-        url: '/dashboard/setup/period'
+        name: 'Cliente',
+        url: '/dashboard/setup/client'
       },
       {
-        name: 'persona',
-        url: '/dashboard/setup/person'
+        name: 'Producto',
+        url: '/dashboard/setup/client'
       },
       {
-        name: 'cliente',
+        name: 'Carrito',
+        url: '/dashboard/setup/client'
+      },
+      {
+        name: 'Venta',
         url: '/dashboard/setup/client'
       }
     ]
